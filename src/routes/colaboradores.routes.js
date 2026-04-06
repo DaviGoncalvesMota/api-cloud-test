@@ -7,7 +7,7 @@ const router = Router();
 
 router.get("/", authGuard, ensureAuthenticated, controllerColaborador.listar);
 router.get("/:id", authGuard, ensureAuthenticated, controllerColaborador.buscarPorId);
-router.post("/", authGuard, ensureAuthenticated, controllerColaborador.adicionar);
+router.post("/", controllerColaborador.adicionar);
 router.put("/:id", authGuard, ensureAuthenticated, controllerColaborador.editar);
 router.delete("/:id", authGuard, ensureAuthenticated, controllerColaborador.remover);
 router.get("/filtrar/:name", authGuard, ensureAuthenticated, controllerColaborador.filtrar);
