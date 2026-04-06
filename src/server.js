@@ -1,4 +1,8 @@
 import app from "./app.js"
 import config from "./config/port.js";
 
-app.listen(config.server.port, () => console.log("Servidor rodando em http://localhost:3001"));
+const PORT = process.env.PORT || config.server.port
+
+app.listen(PORT, () => {
+    console.log("Servidor rodandon na porta: ", PORT)
+});
