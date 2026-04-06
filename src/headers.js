@@ -1,0 +1,15 @@
+export const headers = [
+  "Id", "Crachá", "Nome_Empregado", "Departamento", "Setor", "Cargo", "Ctps", "Serie", "Emissao_Carteira", "Data_de_Admissao", "Data_de_rescisão", "Data_de_Cadastro",
+  "Pis", "Utiliza_Banco_de_Horas", "Cpf", "Insalubridade", "Email", "Orgao_Emissor", "Cnh", "Categoria_Cnh",
+  "Validade_Cnh", "Sexo", "Estado_Civil", "Salario", "Cep_Empregado", "Endereco_Empregado", "n_Empregado", "Bairro_Empregado", "Cidade", "Uf_Empregado", "Telefone", 
+  "Celular", "Nome_Mãe", "Nome_Pai", "Reservista", "Nacionalidade", "Email2", "Naturalidade", "Matricula_no_esocial", "Rg", "Data_de_Emissao_Rg", 
+  "Formacao", "Data_de_Nascimento", "Local_de_Nascimento", "Complemento", "Cor_Pele", "Dependente_Nome1", "Dependente_Nome2", 
+  "Dependente_Nome3", "Dependente_Nome4", "Dependente_Nome5", "Dependente_Cpf1", "Dependente_Cpf2", "Dependente_Cpf3", "Dependente_Cpf4",
+  "Dependente_Cpf5", "Dependente_Data1", "Dependente_Data2", "Dependente_Data3", "Dependente_Data4", "Dependente_Data5",
+  "Parentesco1", "Parentesco2", "Parentesco3", "Parentesco4", "Parentesco5", "Irrf1", "Irrf2", "Irrf3", "Irrf4", "Irrf5", "Sal_1", 
+  "Sal_2", "Sal_3", "Sal_4", "Sal_5", "Uf_Rg", "Titulo_Eleitor", "Data_de_Emissao_Titulo", "Zona_Eleitoral", "Secao", "Categoria", 
+  "Data_Expedicao_Cnh", "Estrangeiro", "Data_de_Chegada", "Numero_Carteira", "Validade_Rg", "Visto", "Validade_Ctps", "Segundo_Cargo", 
+  "Tipo_Salario", "Inicio", "Saida", "Int_Inicio", "Int_Saida", "Inicio_s", "Saida_s", "Int_Inicio_s", "Int_Saida_s", "Horas_Semanais", 
+  "Horas_Mensais", "Carga_Horas_Semanais", "Carga_Horas_Mensais", "Aulas_Semana", "Materia", "Valor_Infantil",
+  "Valor_Fund2", "Valor_Fund1", "Valor_Medio", "Vinculo", "Nome_Empresa", "Desconto_Vt", "Onibus", "Metro", "Integracao", "Trem", 
+];
